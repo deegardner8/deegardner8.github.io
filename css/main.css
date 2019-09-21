@@ -10,9 +10,10 @@ font-size: 1.5rem;
 color: white;
 }
 h2 {
-font-size: 2rem;
+font-size: 1.5rem;
 text-align: center;
 border-bottom: 1px solid #242c75;
+text-shadow: 2px 2px 4px #000000;
 }
 header, main, footer {
 margin: 1.25rem auto;
