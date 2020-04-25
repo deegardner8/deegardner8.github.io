@@ -9,17 +9,20 @@ body {
 font-size: 14px;
 line-height: 24px;
 font-family: "Lemonada", sans-serif;
-color: rgb(191, 12, 226);
+color: rgb(226, 194, 12);
 }
 h1 {
-font-size: 1.5rem;
+font-size: 2.5rem;
 color: white;
+padding: 1rem;
 }
 h2 {
 font-size: 1.5rem;
 text-align: center;
 border-bottom: 1px solid #242c75;
-text-shadow: 2px 2px 4px #000000;
+text-shadow: 2px 2px 4px #000;
+margin-bottom:1rem;
+padding-bottom: 1.5rem;
 }
 header, main, footer {
 margin: 1.25rem auto;
@@ -43,11 +46,20 @@ footer {
 font-size: smaller;
 }
 
+/* https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp */
 img{
-    border-radius: 10%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    border-radius: 15% 15% 0 15% ;
+    box-shadow:0 7px 10px #000; 
 }
 
 .box1 {
 margin: auto;
 }
+
+/* https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp */
+div.rotate-right {
+    float: right;
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate-(-7deg); /* Safari */
+    transform: rotate(-7deg);
+  }
