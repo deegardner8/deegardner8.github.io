@@ -6,5 +6,5 @@ var months = ["January", "February", "March", "April", "May", "June", "July", "A
 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 
-document.getElementById('replace-time').innerHTML =  days[d.getDay()] + " " + months[d.getMonth()] + " " + d.getDay() + " " + d.getFullYear();
+document.getElementById('replace-time').innerHTML =  days[d.getDay()] + " " + months[d.getMonth()] + " " + d.getDate() + " " + d.getFullYear();
 document.getElementById('replace-year').innerHTML =  d.getFullYear()-3;
