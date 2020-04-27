@@ -8,3 +8,4 @@ var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "S
 
 document.getElementById('replace-time').innerHTML =  days[d.getDay()] + " " + months[d.getMonth()] + " " + d.getDate() + " " + d.getFullYear();
 document.getElementById('replace-year').innerHTML =  d.getFullYear()-3;
+document.getElementById('replace-lastModified').innerHTML =  document.lastModified;

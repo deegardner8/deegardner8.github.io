@@ -32,7 +32,7 @@ border: #77c57b;
 border-radius: 5px;
 }
 header, footer, footer a {
-text-align: center;
+text-align: left;
 background-color: #77c57b;
 color: #e5e5f8;
 }
