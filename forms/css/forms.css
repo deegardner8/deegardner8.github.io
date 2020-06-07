@@ -55,10 +55,12 @@ a {
 
 .input-requirements li.invalid {
     color: #e74c3c;
+    border: 3px;
     
 }
 .input-requirements li.valid {
     color: #2ecc71;
+    border: 4px;
     
 }
 
@@ -79,8 +81,8 @@ a {
   --fh-font-color: rgb(40, 40, 40);
 
   /* Borders */
-  --fh-border-radius: 3px;
-  --fh-border-width: 1px;
+  --fh-border-radius: 5px;
+  --fh-border-width: 2px;
   --fh-border-style: solid;
   --fh-border-color: rgb(200, 200, 200);
 
@@ -169,7 +171,7 @@ input[type="datetime-local"],
 input[type="month"],
 input[type="number"],
 input[type="tel"],
-input[type="time"],
+input[type="time"]
 input[type="url"],
 input[type="week"],
 input[list],
