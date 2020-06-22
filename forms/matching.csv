@@ -1,0 +1,113 @@
+match,group,is_participating,start,end,content
+1,0,yes,2,26,case "mobileAppVersions"
+1,1,yes,8,25,mobileAppVersions
+2,0,yes,223,236,case "assets"
+2,1,yes,229,235,assets
+3,0,yes,469,486,case "assetTypes"
+3,1,yes,475,485,assetTypes
+4,0,yes,720,739,case "assetClasses"
+4,1,yes,726,738,assetClasses
+5,0,yes,979,999,case "assetSections"
+5,1,yes,985,998,assetSections
+6,0,yes,1242,1260,case "billAsTypes"
+6,1,yes,1248,1259,billAsTypes
+7,0,yes,1497,1513,case "employees"
+7,1,yes,1503,1512,employees
+8,0,yes,1755,1775,case "employeeRoles"
+8,1,yes,1761,1774,employeeRoles
+9,0,yes,2018,2034,case "locations"
+9,1,yes,2024,2033,locations
+10,0,yes,2265,2281,case "addresses"
+10,1,yes,2271,2280,addresses
+11,0,yes,2512,2526,case "regions"
+11,1,yes,2518,2525,regions
+12,0,yes,2751,2764,case "states"
+12,1,yes,2757,2763,states
+13,0,yes,2986,3002,case "countries"
+13,1,yes,2992,3001,countries
+14,0,yes,3233,3254,case "unitsOfMeasure"
+14,1,yes,3239,3253,unitsOfMeasure
+15,0,yes,3500,3517,case "fieldRanks"
+15,1,yes,3506,3516,fieldRanks
+16,0,yes,3751,3763,case "users"
+16,1,yes,3757,3762,users
+17,0,yes,3981,3994,case "timers"
+17,1,yes,3987,3993,timers
+18,0,yes,4228,4251,case "applicationTypes"
+18,1,yes,4234,4250,applicationTypes
+19,0,yes,4522,4539,case "components"
+19,1,yes,4528,4538,components
+20,0,yes,4792,4813,case "componentTasks"
+20,1,yes,4798,4812,componentTasks
+21,0,yes,5078,5108,case "componentTemplateGroups"
+21,1,yes,5084,5107,componentTemplateGroups
+22,0,yes,5400,5425,case "componentTemplates"
+22,1,yes,5406,5424,componentTemplates
+23,0,yes,5702,5718,case "taskTypes"
+23,1,yes,5708,5717,taskTypes
+24,0,yes,5967,5985,case "taskLayouts"
+24,1,yes,5973,5984,taskLayouts
+25,0,yes,6241,6266,case "taskLayoutElements"
+25,1,yes,6247,6265,taskLayoutElements
+26,0,yes,6543,6558,case "products"
+26,1,yes,6549,6557,products
+27,0,yes,6805,6824,case "productTypes"
+27,1,yes,6811,6823,productTypes
+28,0,yes,7083,7100,case "workOrders"
+28,1,yes,7089,7099,workOrders
+29,0,yes,7353,7365,case "tasks"
+29,1,yes,7359,7364,tasks
+30,0,yes,7603,7626,case "taskInstructions"
+30,1,yes,7609,7625,taskInstructions
+31,0,yes,7897,7910,case "boards"
+31,1,yes,7903,7909,boards
+32,0,yes,8151,8171,case "boardStatuses"
+32,1,yes,8157,8170,boardStatuses
+33,0,yes,8433,8452,case "boardColumns"
+33,1,yes,8439,8451,boardColumns
+34,0,yes,8711,8729,case "assignments"
+34,1,yes,8717,8728,assignments
+35,0,yes,9002,9024,case "peerAssignments"
+35,1,yes,9008,9023,peerAssignments
+36,0,yes,9304,9329,case "assignmentComments"
+36,1,yes,9310,9328,assignmentComments
+37,0,yes,9604,9632,case "billingUnitsOfMeasure"
+37,1,yes,9610,9631,billingUnitsOfMeasure
+38,0,yes,9904,9926,case "billAsTypeRates"
+38,1,yes,9910,9925,billAsTypeRates
+39,0,yes,10181,10192,case "jobs"
+39,1,yes,10187,10191,jobs
+40,0,yes,10425,10446,case "serviceTickets"
+40,1,yes,10431,10445,serviceTickets
+41,0,yes,10709,10728,case "jobLocations"
+41,1,yes,10715,10727,jobLocations
+42,0,yes,10985,11013,case "assignmentCollections"
+42,1,yes,10991,11012,assignmentCollections
+43,0,yes,11297,11311,case "clients"
+43,1,yes,11303,11310,clients
+44,0,yes,11553,11573,case "formTemplates"
+44,1,yes,11559,11572,formTemplates
+45,0,yes,11817,11846,case "formTemplateCategories"
+45,1,yes,11823,11845,formTemplateCategories
+46,0,yes,12117,12139,case "formSubmissions"
+46,1,yes,12123,12138,formSubmissions
+47,0,yes,12359,12375,case "formItems"
+47,1,yes,12365,12374,formItems
+48,0,yes,12607,12631,case "customFieldValues"
+48,1,yes,12613,12630,customFieldValues
+49,0,yes,12897,12916,case "customFields"
+49,1,yes,12903,12915,customFields
+50,0,yes,13156,13168,case "files"
+50,1,yes,13162,13167,files
+51,0,yes,13387,13408,case "fileCategories"
+51,1,yes,13393,13407,fileCategories
+52,0,yes,13654,13677,case "companyDocuments"
+52,1,yes,13660,13676,companyDocuments
+53,0,yes,13929,13949,case "taskTemplates"
+53,1,yes,13935,13948,taskTemplates
+54,0,yes,14211,14226,case "settings"
+54,1,yes,14217,14225,settings
+55,0,yes,14454,14475,case "globalSettings"
+55,1,yes,14460,14474,globalSettings
+56,0,yes,14721,14740,case "userSettings"
+56,1,yes,14727,14739,userSettings

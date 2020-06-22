@@ -1,0 +1,224 @@
+  case "mobileAppVersions":
+                        mobileAppVersions = _mobileCoreService.GetMobileAppVersions();
+                        taskList.Add(mobileAppVersions);
+                        break;
+                    case "assets":
+                        assets = _mobileCoreService.GetAssets(installationID, userID, regionIDs, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(assets);
+                        break;
+                    case "assetTypes":
+                        assetTypes = _mobileCoreService.GetAssetTypes(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(assetTypes);
+                        break;
+                    case "assetClasses":
+                        assetClasses = _mobileCoreService.GetAssetClasses(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(assetClasses);
+                        break;
+                    case "assetSections":
+                        assetSections = _mobileCoreService.GetAssetSections(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(assetSections);
+                        break;
+                    case "billAsTypes":
+                        billAsTypes = _mobileCoreService.GetBillAsTypes(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(billAsTypes);
+                        break;
+                    case "employees":
+                        employees = _mobileCoreService.GetEmployees(installationID, userID, regionIDs, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(employees);
+                        break;
+                    case "employeeRoles":
+                        employeeRoles = _mobileCoreService.GetEmployeeRoles(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(employeeRoles);
+                        break;
+                    case "locations":
+                        locations = _mobileCoreService.GetLocations(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(locations);
+                        break;
+                    case "addresses":
+                        addresses = _mobileCoreService.GetAddresses(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(addresses);
+                        break;
+                    case "regions":
+                        regions = _mobileCoreService.GetRegions(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(regions);
+                        break;
+                    case "states":
+                        states = _mobileCoreService.GetStates(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(states);
+                        break;
+                    case "countries":
+                        countries = _mobileCoreService.GetCountries(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(countries);
+                        break;
+                    case "unitsOfMeasure":
+                        unitsOfMeasure = _mobileCoreService.GetUnitsOfMeasure(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(unitsOfMeasure);
+                        break;
+                    case "fieldRanks":
+                        fieldRanks = _mobileCoreService.GetFieldRanks(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(fieldRanks);
+                        break;
+                    case "users":
+                        users = _mobileCoreService.GetUser(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(users);
+                        break;
+                    case "timers":
+                        timers = _mobileCoreService.GetTimers(installationID, userID, timeOffset, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(timers);
+                        break;
+                    case "applicationTypes":
+                        applicationTypes = _mobilePreventativeMaintenenceService.GetApplicationTypes(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(applicationTypes);
+                        break;
+                    case "components":
+                        components = _mobilePreventativeMaintenenceService.GetComponents(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(components);
+                        break;
+                    case "componentTasks":
+                        componentTasks = _mobilePreventativeMaintenenceService.GetComponentTasks(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(componentTasks);
+                        break;
+                    case "componentTemplateGroups":
+                        componentTemplateGroups = _mobilePreventativeMaintenenceService.GetComponentTemplateGroups(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(componentTemplateGroups);
+                        break;
+                    case "componentTemplates":
+                        componentTemplates = _mobilePreventativeMaintenenceService.GetComponentTemplates(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(componentTemplates);
+                        break;
+                    case "taskTypes":
+                        taskTypes = _mobilePreventativeMaintenenceService.GetTaskType(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(taskTypes);
+                        break;
+                    case "taskLayouts":
+                        taskLayouts = _mobilePreventativeMaintenenceService.GetTaskLayouts(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(taskLayouts);
+                        break;
+                    case "taskLayoutElements":
+                        taskLayoutElements = _mobilePreventativeMaintenenceService.GetTaskLayoutElements(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(taskLayoutElements);
+                        break;
+                    case "products":
+                        products = _mobilePreventativeMaintenenceService.GetProducts(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(products);
+                        break;
+                    case "productTypes":
+                        productTypes = _mobilePreventativeMaintenenceService.GetProductTypes(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(productTypes);
+                        break;
+                    case "workOrders":
+                        workOrders = _mobilePreventativeMaintenenceService.GetWorkOrders(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(workOrders);
+                        break;
+                    case "tasks":
+                        tasks = _mobilePreventativeMaintenenceService.GetTasks(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(tasks);
+                        break;
+                    case "taskInstructions":
+                        taskInstructions = _mobilePreventativeMaintenenceService.GetTaskInstructions(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(taskInstructions);
+                        break;
+                    case "boards":
+                        boards = _mobilePreventativeMaintenenceService.GetBoards(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(boards);
+                        break;
+                    case "boardStatuses":
+                        boardStatuses = _mobilePreventativeMaintenenceService.GetBoardStatuses(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(boardStatuses);
+                        break;
+                    case "boardColumns":
+                        boardColumns = _mobilePreventativeMaintenenceService.GetBoardColumns(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(boardColumns);
+                        break;
+                    case "assignments":
+                        assignments = _mobileProductionService.GetAssignments(installationID, userID, timeOffset, getDeltaChanges, false, overrideDeltaDate, regionIDs);
+                        taskList.Add(assignments);
+                        break;
+                    case "peerAssignments":
+                        peerAssignments = _mobileProductionService.GetAssignments(installationID, userID, timeOffset, getDeltaChanges, true, overrideDeltaDate, regionIDs);
+                        taskList.Add(peerAssignments);
+                        break;
+                    case "assignmentComments":
+                        assignmentComments = _mobileProductionService.GetAssignmentComments(installationID, userID, getDeltaChanges, overrideDeltaDate, regionIDs);
+                        taskList.Add(assignmentComments);
+                        break;
+                    case "billingUnitsOfMeasure":
+                        billingUnitsOfMeasure = _mobileProductionService.GetBillingUnitOfMeasure(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(billingUnitsOfMeasure);
+                        break;
+                    case "billAsTypeRates":
+                        billAsTypeRates = _mobileProductionService.GetBillAsTypeRates(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(billAsTypeRates);
+                        break;
+                    case "jobs":
+                        jobs = _mobileProductionService.GetJobs(installationID, userID, regionIDs, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(jobs);
+                        break;
+                    case "serviceTickets":
+                        serviceTickets = _mobileProductionService.GetServiceTickets(installationID, userID, regionIDs, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(serviceTickets);
+                        break;
+                    case "jobLocations":
+                        jobLocations = _mobileProductionService.GetJobLocations(installationID, userID, regionIDs, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(jobLocations);
+                        break;
+                    case "assignmentCollections":
+                        assignmentCollections = _mobileProductionService.GetAssignmentCollections(installationID, userID, regionIDs, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(assignmentCollections);
+                        break;
+                    case "clients":
+                        clients = _mobileProductionService.GetClients(installationID, userID, regionIDs, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(clients);
+                        break;
+                    case "formTemplates":
+                        formTemplates = _mobileFormsService.GetFormTemplates(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(formTemplates);
+                        break;
+                    case "formTemplateCategories":
+                        formTemplateCategories = _mobileFormsService.GetFormTemplateCategories(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(formTemplateCategories);
+                        break;
+                    case "formSubmissions":
+                        forms = _mobileFormsService.GetForms(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(forms);
+                        break;
+                    case "formItems":
+                        formItems = _mobileFormsService.GetFormItems(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(formItems);
+                        break;
+                    case "customFieldValues":
+                        customFieldValues = _mobileCoreService.GetCustomFieldValues(installationID, userID, regionIDs, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(customFieldValues);
+                        break;
+                    case "customFields":
+                        customFields = _mobileCoreService.GetCustomFields(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(customFields);
+                        break;
+                    case "files":
+                        files = _mobileCoreService.GetFiles(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(files);
+                        break;
+                    case "fileCategories":
+                        fileCategories = _mobileCoreService.GetFileCategories(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(fileCategories);
+                        break;
+                    case "companyDocuments":
+                        companyDocuments = _mobileCoreService.GetCompanyDocuments(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(companyDocuments);
+                        break;
+                    case "taskTemplates":
+                        taskTemplates = _mobilePreventativeMaintenenceService.GetTaskTemplates(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(taskTemplates);
+                        break;
+                    case "settings":
+                        settings = _mobileCoreService.GetSettings(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(settings);
+                        break;
+                    case "globalSettings":
+                        globalSettings = _mobileCoreService.GetGlobalSettings(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(globalSettings);
+                        break;
+                    case "userSettings":
+                        userSettings = _mobileCoreService.GetUserSettings(installationID, userID, getDeltaChanges, overrideDeltaDate);
+                        taskList.Add(userSettings);
+                        break;

@@ -1,0 +1,17 @@
+Mr. José Сергей Ἀχιλλεύς Gardner Sr.
+
+[\w\p{L}]{5,}
+[a-zA-Z\p{L} \.]{5,}
+[a-zA-Z]{5,}
+[\w\p{L} .]{5,}[^.com|@]
+[\w]{5,}
+
+
+Dee Gardner
+Brother Dee Gardner
+Dee Gardner Sr. 
+Dee Gardner Jr.
+Dee Robinson-Gardner
+Mr. José Сергей Ἀχιλλεύς Gardner Sr.
+dee.gardner@gmail.com
+[a-zA-Z \.\-\p{L}]{5,}
